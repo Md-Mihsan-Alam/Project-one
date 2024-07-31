@@ -1,5 +1,5 @@
 .backgroudimage {
-  background-image: url(/assets/img/hero-bg.png);
+  background-image: url(/project-one/assets/img/hero-bg.png);
   height: 930px;
   width: 1700px;
   display: flex;
@@ -18,7 +18,7 @@
   font-weight: 400;
   color: gray;
   margin-top: 480px;
-  margin-left: -606px;
+  margin-left: -595px;
 }
 .backgroudimage .btns {
   margin-top: 520px;
@@ -1229,6 +1229,18 @@ ul {
   margin-left: -60px;
 }
 
+ul {
+  margin-left: 15px;
+}
 ul li a {
   font-size: 18px;
+  color: rgb(1, 41, 112);
+}
+
+.navbar-brand h3 {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: rgb(1, 41, 112);
+  font-size: 30px;
+  font-weight: 700;
 }/*# sourceMappingURL=me.css.map */

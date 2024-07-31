@@ -1,6 +1,6 @@
 @import "variables";
 .backgroudimage{
-    background-image: url(/assets/img/hero-bg.png);
+    background-image: url(/project-one/assets/img/hero-bg.png);
     height: map-get($height, "herobg");
     width: map-get($width, "herobg");
     display: flex;
@@ -18,7 +18,7 @@
         font-weight: 400;
         color: map-get($color , "herobgimgp");
         margin-top: 480px;
-        margin-left: -606px;
+        margin-left: -595px;
     }
     .btns{
         margin-top: 520px;
