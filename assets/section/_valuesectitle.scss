@@ -1,0 +1,21 @@
+.valuesectitle{
+    height: map-get($height, "sectiontitle");
+    width: map-get($width, "sectiontitle");
+    text-align: center;
+    background-color: map-get($bgclr, "sectiontitle");
+    border-radius: map-get($redius, "sectiontitle");
+    margin-top: 100px;
+    margin-left: 450px;
+    padding-top: map-get($padding, "sectiontitlet");
+    h2{
+    font-size: map-get($fontsize, "sectiontitleh2");
+    color: #4154f1;
+    }
+}
+.valuesectitlep{
+    font-size: map-get($fontsize, "sectitlep");
+    padding-top: map-get($padding, "sectitlept");
+    margin-left: 400px;
+    color: #012970;
+    font-weight: 600;
+}

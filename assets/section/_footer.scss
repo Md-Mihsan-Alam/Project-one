@@ -1,0 +1,50 @@
+.container{
+    margin: auto;
+    max-width: 1170px;
+}
+.row{
+    display: flex;
+}
+.footer{
+    padding: 70px 0px;
+}
+.footer-col{
+    width: 200px;
+    padding: 0px 15px;
+    h4{ 
+        font-size: 28px;
+        color: rgb(1, 41, 112);
+    }
+    .address{
+        width: 200px;
+    }
+}
+ul{
+    margin-left: -35px;
+}
+.footer-col ul li a{
+    color: black;
+    line-height: 1.5;
+}
+.footer-col ul li a:hover{
+    padding-left: 8px;
+}
+.footer-col .sociallinks{
+    a{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    i{
+        font-size: 24px;
+    }
+}
+}
+.footer-col .details {
+    margin-left: 50px;
+    width: 350px;
+}
+.footer-col .HASTlinks{
+    margin-left: -60px;
+}

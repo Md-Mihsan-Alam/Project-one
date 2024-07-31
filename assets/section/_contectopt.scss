@@ -1,0 +1,88 @@
+.contectbox1{
+    height: 200px;
+    width: 250px;
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    i{
+        font-size: 38px;
+        color: rgb(65, 84, 241);
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 20px;
+        color: rgb(1, 41, 112);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .city{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+}
+.contectbox2{
+    height: 200px;
+    width: 250px;
+    background-color: #ddd;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    i{
+        font-size: 38px;
+        color: rgb(65, 84, 241);
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 20px;
+        color: rgb(1, 41, 112);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .city{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+}
+.contectform{
+    height: 420px;
+    width: 550px;
+    background-color: #ddd;
+    margin-top: 20px;
+    padding: 20px;
+    .name{
+        width: 250px;
+    }
+    .email{
+        width: 250px;
+        margin-left: 260px;
+        margin-top: -38px;
+    }
+    .Massage{
+        text-align: start;
+        input{
+            height: 150px;
+        }
+       
+    }
+}
+.sendbutton{
+    margin-left: 200px;
+    margin-top: 30px;
+    button{
+        background-color: rgb(65, 84, 241);
+    }
+}

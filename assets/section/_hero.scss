@@ -1,0 +1,55 @@
+@import "variables";
+.backgroudimage{
+    background-image: url(/assets/img/hero-bg.png);
+    height: map-get($height, "herobg");
+    width: map-get($width, "herobg");
+    display: flex;
+    h1{
+        font-size: map-get($fontsize, "herogbh1");
+        color: map-get($color , "herobgimgh1");
+        font-family: "Nunito Sans", sans-serif;
+        font-size: map-get($fontsize, "herogbh1");
+        font-weight: 700;
+        margin-top: 360px;
+        margin-left: 330px;
+    }
+    p{
+        font-size: map-get($fontsize, "herogbp");
+        font-weight: 400;
+        color: map-get($color , "herobgimgp");
+        margin-top: 480px;
+        margin-left: -606px;
+    }
+    .btns{
+        margin-top: 520px;
+        margin-left: -590px;
+        font-weight: normal;
+        button{
+        background-color: map-get($bgclr, "herobtnbutton" );
+        text-align: center;
+        }
+        a{
+            position: relative;
+            i{
+                font-size: 32px;
+                color: #4154f1;
+                margin-top: 8px;
+                position:absolute;
+                left: 20px;
+                top: -10px;
+            }
+            span{
+                font-size: 20px;
+                position:absolute;
+                left: 60px;
+                top: -3px;
+            }
+        }
+    } 
+}
+.heroimg{
+    img{
+        margin-top: 270px;
+        margin-left: 60px;
+    }
+}

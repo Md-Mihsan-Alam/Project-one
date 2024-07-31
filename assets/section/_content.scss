@@ -1,0 +1,29 @@
+.content{
+    margin-top: 150px;
+    padding: map-get($padding, "content");
+    background-color: map-get($bgclr, "content");
+    width: 600px;
+    margin-left: -65px;
+    h3{
+        color: map-get($color,"contenth3");
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    h2{
+        color: map-get($color,"contenth2");
+        margin-left: 15px;
+        font-size: 24px;
+    }
+    p{
+        margin-left: 15px;
+    }
+    .contentbtn{
+        margin-left: 15px;
+        button{
+            background-color: #4154f1;;
+        }
+    }
+}
+.contentimg{
+    margin-left: -35px;
+}

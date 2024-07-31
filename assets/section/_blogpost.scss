@@ -1,0 +1,44 @@
+.postitem1{
+    height: 280px;
+    width: 350px;
+    background-color: #ddd;
+    a{
+        position: relative;
+        span{
+            font-size: 16px;
+            color: gray;
+        }
+        i{
+            font-size: 16px;
+            margin-left: 5px;
+            position: absolute;
+            top: 5px;
+        }
+    }
+}
+.postcontent{
+    h3{
+        color: rgb(1, 41, 112);
+        font-size: 20px;
+    }
+    .details1{
+
+        i{
+            color: rgb(65, 84, 241);
+            font-size: 16px;
+        }
+        span{
+            font-size: 15px;
+            margin-left: 5px;
+        }
+    }
+    .details2{
+        margin-left: 120px;
+        margin-top: -25px;
+        i{
+            color: rgb(65, 84, 241);
+            font-size: 16px; 
+        }
+    }
+
+}
