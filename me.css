@@ -1243,4 +1243,429 @@ ul li a {
   color: rgb(1, 41, 112);
   font-size: 30px;
   font-weight: 700;
+}
+
+@media (max-width: 576px) and (min-width: 0px) {
+  .backgroudimage {
+    margin-left: -400px;
+    height: 600px;
+    width: 870px;
+  }
+  .backgroudimage h1 {
+    margin-left: 400px;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .backgroudimage p {
+    width: 400px;
+    font-size: 20px;
+    margin-left: -370px;
+    margin-top: 200px;
+  }
+  .backgroudimage .btns button {
+    width: 400px;
+    margin-left: 190px;
+    margin-top: -230px;
+  }
+  .backgroudimage .btns a {
+    margin-left: -280px;
+  }
+  .heroimg {
+    margin-left: -80px;
+    margin-top: -200px;
+  }
+  .heroimg img {
+    height: 350px;
+    width: 450px;
+  }
+  .content {
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .content h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .content p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .content .contentbtn {
+    margin-left: 200px;
+  }
+  .contentimg {
+    margin-left: 0px;
+  }
+  .contentimg img {
+    height: 400px;
+    width: 400px;
+  }
+  .valuesectitle {
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  .valuesectitlep {
+    margin-left: 75px;
+    width: 500px;
+  }
+  .cards .card1 {
+    margin-left: 10px;
+  }
+  .cards .card2 {
+    margin-top: 480px;
+    margin-left: -410px;
+  }
+  .cards .card3 {
+    margin-top: 960px;
+    margin-left: -440px;
+  }
+  .statitem1 {
+    width: 300px;
+    margin-left: 60px;
+  }
+  .statitem1 span {
+    margin-left: 20px;
+  }
+  .statitem1 p {
+    margin-left: 60px;
+  }
+  .statitem2 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .statitem2 span {
+    margin-left: 20px;
+  }
+  .statitem2 p {
+    margin-left: 60px;
+  }
+  .statitem3 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .statitem3 span {
+    margin-left: 20px;
+  }
+  .statitem3 p {
+    margin-left: 70px;
+  }
+  .statitem4 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .statitem4 span {
+    margin-left: 20px;
+  }
+  .statitem4 p {
+    margin-left: 80px;
+  }
+  .featuresectitle {
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  .featuresectitlep {
+    margin-left: 60px;
+    width: 500px;
+  }
+  .featureimg {
+    margin-left: 10px;
+  }
+  .featureimg img {
+    height: 260px;
+    width: 380px;
+  }
+  .threebox .featureitem1 {
+    margin-left: 80px;
+  }
+  .threebox2 {
+    margin-top: 40px;
+  }
+  .threebox2 .featureitem1 {
+    margin-left: -240px;
+  }
+  .altitem1 {
+    margin-left: 60px;
+  }
+  .altitem2 {
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+  .altfetureimg {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .altfetureimg img {
+    height: 380px;
+    width: 340px;
+  }
+  .servicesectitle {
+    margin-left: 130px;
+  }
+  .servicesectitlep {
+    margin-left: 90px;
+    width: 500px;
+  }
+  .box1 {
+    margin-left: 30px;
+  }
+  .box1 span i {
+    margin-left: 15px;
+  }
+  .box2 {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .box2 span i {
+    margin-left: 15px;
+  }
+  .box3 {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .box3 span i {
+    margin-left: 15px;
+  }
+  .box4 {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .box4 span i {
+    margin-left: 15px;
+  }
+  .box5 {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .box5 span i {
+    margin-left: 15px;
+  }
+  .box6 {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .box6 span i {
+    margin-left: 15px;
+  }
+  .pricingsectitle {
+    margin-left: 130px;
+  }
+  .sectitlep {
+    margin-left: 0px;
+    width: 400px;
+  }
+  .pricingitem1 {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .pricingitem2 {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .pricingitem3 {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .pricingitem4 {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .faqsectitle {
+    margin-left: 130px;
+  }
+  .Porfoliosectitle {
+    margin-left: 125px;
+  }
+  .portsectitlep {
+    margin-left: 70px;
+    width: 400px;
+  }
+  .item1 {
+    margin-left: 30px;
+  }
+  .item2 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .item3 {
+    margin-left: 30px;
+  }
+  .item4 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .item5 {
+    margin-left: 30px;
+  }
+  .item6 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .item7 {
+    margin-left: 30px;
+  }
+  .item8 {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .item9 {
+    margin-left: 30px;
+  }
+  .teamsectitle {
+    margin-left: 125px;
+  }
+  .teamsectitlep {
+    margin-left: 70px;
+    width: 400px;
+  }
+  .member1 {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+  .member1detail h4 {
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  .member1detail span {
+    font-size: 14px;
+    margin-left: 110px;
+  }
+  .member1detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 60px;
+  }
+  .member2 {
+    margin-left: 80px;
+  }
+  .member2detail h4 {
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  .member2detail span {
+    font-size: 14px;
+    margin-left: 110px;
+  }
+  .member2detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 60px;
+  }
+  .member3 {
+    margin-left: 80px;
+  }
+  .member3detail h4 {
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  .member3detail span {
+    font-size: 14px;
+    margin-left: 110px;
+  }
+  .member3detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 60px;
+  }
+  .member4 {
+    margin-left: 80px;
+  }
+  .member4detail h4 {
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  .member4detail span {
+    font-size: 14px;
+    margin-left: 110px;
+  }
+  .member4detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 60px;
+  }
+  .postsectitle {
+    margin-left: 110px;
+  }
+  .postsectitlep {
+    width: 500px;
+    margin-left: 20px;
+  }
+  .postitem1 {
+    margin-top: 160px;
+    margin-left: 25px;
+  }
+  .contectsectitle {
+    margin-left: 120px;
+  }
+  .contectsectitlep {
+    margin-left: 120px;
+  }
+  .contectbox1 {
+    margin-left: 80px;
+  }
+  .contectbox2 {
+    margin-left: 80px;
+  }
+  .contectform {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 380px;
+  }
+  .contectform .name {
+    width: 340px;
+  }
+  .contectform .email {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 340px;
+  }
+  .contectform .Massage {
+    margin-top: -20px;
+  }
+  .contectform .sendbutton {
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  .contectform .sendbutton button {
+    width: 200px;
+  }
+  .footernews {
+    width: 370px;
+    height: 200px;
+    margin-left: 20px;
+  }
+  .footernews h4 {
+    margin-left: 70px;
+    width: 300px;
+  }
+  .footernews .input {
+    margin-left: 20px;
+    width: 230px;
+  }
+  .footernews .inputbutton {
+    margin-left: 230px;
+  }
+  .footer {
+    margin-top: -40px;
+  }
+  .footer .HASTlinks {
+    margin-left: 0px;
+  }
+  .footer .footer-col ul {
+    margin-left: -35px;
+  }
+  .footer .details {
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=me.css.map */

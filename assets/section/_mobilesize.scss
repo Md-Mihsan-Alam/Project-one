@@ -1,0 +1,480 @@
+$mixbreakpoin:0px;
+$breakpoint:576px;
+@media (max-width: $breakpoint) and (min-width: $mixbreakpoin){
+    // section background
+    .backgroudimage{
+        margin-left: -400px;
+        height: 600px;
+        width: 870px;
+        h1{
+            margin-left: 400px;
+            font-size: 30px;
+            margin-top: 100px;
+        }
+        p{
+            width: 400px;
+            font-size: 20px;
+            margin-left: -370px;
+            margin-top: 200px;
+        }
+        .btns{
+            button{
+                width: 400px;
+                margin-left: 190px;
+                margin-top: -230px;
+            }
+            a{
+                margin-left: -280px;
+            }
+        }
+
+    }
+    // beckground secend image
+    .heroimg{
+        img{
+            height: 350px;
+            width: 450px;
+        }
+        margin-left: -80px;
+        margin-top: -200px;
+    }
+    // main content setion three
+    .content{
+        height: 300px;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 0px;
+        h3{
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+        }
+        h2{
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .contentbtn{
+            margin-left: 200px;
+        }
+     }
+    .contentimg{
+        img{
+            height: 400px;
+            width: 400px;
+        }
+        margin-left: 0px;
+    }
+    // value section  titlee
+    .valuesectitle{
+        margin-top: 30px;
+        margin-left: 130px;
+    }
+    .valuesectitlep{
+        margin-left: 75px;
+        width: 500px;
+    }
+    // cardss section four
+    .cards{
+        .card1{
+            margin-left: 10px;
+        }
+        .card2{
+            margin-top: 480px;
+            margin-left: -410px;
+        }
+        .card3{
+            margin-top: 960px;
+            margin-left: -440px;
+        }
+    }
+    // Status section 
+    .statitem1{
+        width: 300px;
+        margin-left: 60px;
+        span{
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 60px;
+        }
+    }
+    .statitem2{
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 60px;
+        span{
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 60px;
+        }
+    }
+    .statitem3{
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 60px;
+        span{
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 70px;
+        }
+    }
+    .statitem4{
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 60px;
+        span{
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 80px;
+        }
+    }
+    // feature section title
+    .featuresectitle{
+        margin-top: 30px;
+        margin-left: 130px;
+    }
+    .featuresectitlep{
+        margin-left: 60px;
+        width: 500px;
+    }
+    // featuress
+    .featureimg{
+        img{
+            height: 260px;
+            width: 380px;
+        }
+        margin-left: 10px;
+    }
+    .threebox{
+        .featureitem1{
+            margin-left: 80px;
+        }
+    }
+    .threebox2{
+        margin-top: 40px;
+        .featureitem1{
+            margin-left: -240px;
+        }
+    }
+    // altitem
+    .altitem1{
+        margin-left: 60px;
+    }
+    .altitem2{
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    .altfetureimg{
+        img{
+            height: 380px;
+            width: 340px;
+        }
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    // service section title
+    .servicesectitle{
+        margin-left: 130px;
+    }
+    .servicesectitlep{
+        margin-left: 90px;
+        width: 500px;
+    }
+    // service boxes
+    .box1{
+        margin-left: 30px;
+        span{
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    .box2{
+        margin-left: 30px;
+        margin-top: 40px;
+        span{
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    .box3{
+        margin-left: 30px;
+        margin-top: 40px;
+        span{
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    .box4{
+        margin-left: 30px;
+        margin-top: 40px;
+        span{
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    .box5{
+        margin-left: 30px;
+        margin-top: 40px;
+        span{
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    .box6{
+        margin-left: 30px;
+        margin-top: 40px;
+        span{
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    // pricing section title
+    .pricingsectitle{
+        margin-left: 130px;
+    }
+    .sectitlep{
+        margin-left: 0px;
+        width: 400px;
+    }
+    // Price of services
+    .pricingitem1{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .pricingitem2{
+        margin-top:50px;
+        margin-left: 80px;
+    }
+    .pricingitem3{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .pricingitem4{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    // FAQ TITLE
+    .faqsectitle{
+        margin-left: 130px;
+    }
+    // Porfolio section title
+    .Porfoliosectitle{
+        margin-left: 125px;
+    }
+    .portsectitlep{
+        margin-left: 70px;
+        width: 400px; 
+    }
+    // Porfolio
+    .item1{
+        margin-left: 30px;
+    }
+    .item2{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .item3{
+        margin-left: 30px;
+    }
+    .item4{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .item5{
+        margin-left: 30px;
+    }
+    .item6{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .item7{
+        margin-left: 30px;
+    }
+    .item8{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .item9{
+        margin-left: 30px;
+    }
+    // Team Section
+    .teamsectitle{
+        margin-left: 125px;
+    }
+    .teamsectitlep{
+        margin-left: 70px;
+        width: 400px; 
+    }
+    // Team member
+    .member1{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .member1detail{
+        h4{
+            font-size: 20px;
+            margin-left: 120px;
+        }
+        span{
+            font-size: 14px;
+            margin-left: 110px;
+        }
+        p{
+            width: 230px;
+            font-size: 14px;
+            margin-left: 60px;
+        }
+    }
+    .member2{
+        margin-left: 80px;
+    }
+    .member2detail{
+        h4{
+            font-size: 20px;
+            margin-left: 120px;
+        }
+        span{
+            font-size: 14px;
+            margin-left: 110px;
+        }
+        p{
+            width: 230px;
+            font-size: 14px;
+            margin-left: 60px;
+        }
+    }
+    .member3{
+        margin-left: 80px;
+    }
+    .member3detail{
+        h4{
+            font-size: 20px;
+            margin-left: 120px;
+        }
+        span{
+            font-size: 14px;
+            margin-left: 110px;
+        }
+        p{
+            width: 230px;
+            font-size: 14px;
+            margin-left: 60px;
+        }
+    }
+    .member4{
+        margin-left: 80px;
+    }
+    .member4detail{
+        h4{
+            font-size: 20px;
+            margin-left: 120px;
+        }
+        span{
+            font-size: 14px;
+            margin-left: 110px;
+        }
+        p{
+            width: 230px;
+            font-size: 14px;
+            margin-left: 60px;
+        }
+    }
+    // post section title
+    .postsectitle{
+        margin-left: 110px;
+    }
+    .postsectitlep{
+        width: 500px;
+        margin-left: 20px;
+    }
+    // post Item
+    .postitem1{
+        margin-top: 160px;
+        margin-left: 25px;
+    }
+    // contect section title
+    .contectsectitle{
+        margin-left: 120px;
+    }
+    .contectsectitlep{
+        margin-left: 120px;
+    }
+    // Contect
+    .contectbox1{
+        margin-left: 80px;
+    }
+    .contectbox2{
+        margin-left: 80px;
+    }
+    .contectform{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 380px;
+        .name{
+            width: 340px;
+        }
+        .email{
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 340px;
+            
+        }
+        .Massage{
+            margin-top: -20px;
+        }
+        .sendbutton{
+            margin-top: 10px;
+            margin-left: 70px;
+            button{
+                width: 200px;
+            }
+        }
+    }
+    // footer news
+    .footernews{
+        width: 370px;
+        height: 200px;
+        margin-left: 20px;
+        h4{
+            margin-left: 70px;
+            width: 300px;
+        }
+        .input{
+            margin-left: 20px;
+            width: 230px;
+        }
+        .inputbutton{
+           margin-left: 230px;
+        }
+    }
+    // footer
+    .footer{
+        margin-top: -40px;
+        .HASTlinks{
+            margin-left: 0px;
+        }
+        .footer-col{
+            ul{
+                margin-left: -35px;
+            }
+        }
+        .details{
+            margin-left: 0;
+        }
+    }
+}
