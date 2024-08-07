@@ -1,5 +1,5 @@
-$mixbreakpoin:0px;
-$breakpoint:576px;
+$mixbreakpoin: 577px;
+$breakpoint: 768px;
 @media (max-width: $breakpoint) and (min-width: $mixbreakpoin){
     html,body{
         width: 100%;
@@ -10,27 +10,34 @@ $breakpoint:576px;
     }
     // section background
     .backgroudimage{
-        margin-left: -400px;
-        height: 600px;
+        margin-left: -300px;
+        height: 500px;
         width: 870px;
         h1{
-            margin-left: 400px;
+            margin-left: 390px;
             font-size: 30px;
             margin-top: 100px;
         }
         p{
             width: 400px;
             font-size: 20px;
-            margin-left: -370px;
-            margin-top: 200px;
+            margin-left: -380px;
+            margin-top: 190px;
+            text-align: center;
         }
         .btns{
             button{
                 width: 400px;
                 margin-left: 190px;
-                margin-top: -230px;
+                margin-top: -360px;
             }
             a{
+                span{
+                    margin-top: -97px;
+                }
+                i{
+                    margin-top: -90px;
+                }
                 margin-left: -280px;
             }
         }
@@ -39,18 +46,18 @@ $breakpoint:576px;
     // beckground secend image
     .heroimg{
         img{
-            height: 350px;
-            width: 450px;
+            height: 400px;
+            width: 550px;
         }
-        margin-left: -80px;
+        margin-left: -60px;
         margin-top: -200px;
     }
     // main content setion three
     .content{
         height: 300px;
-        width: 400px;
+        width: 500px;
         margin-top: 50px;
-        margin-left: 0px;
+        margin-left: 5px;
         h3{
             font-size: 14px;
             font-weight: 700;
@@ -73,23 +80,23 @@ $breakpoint:576px;
     .contentimg{
         img{
             height: 400px;
-            width: 400px;
+            width: 500px;
         }
-        margin-left: 0px;
+        margin-left: 5px;
     }
     // value section  titlee
     .valuesectitle{
         margin-top: 30px;
-        margin-left: 130px;
+        margin-left: 190px;
     }
     .valuesectitlep{
-        margin-left: 75px;
+        margin-left: 130px;
         width: 500px;
     }
     // cardss section four
     .cards{
         .card1{
-            margin-left: 10px;
+            margin-left: 70px;
         }
         .card2{
             margin-top: 480px;
@@ -102,41 +109,41 @@ $breakpoint:576px;
     }
     // Status section 
     .statitem1{
-        width: 300px;
-        margin-left: 60px;
+        width: 380px;
+        margin-left: 70px;
         span{
-            margin-left: 20px;
-        }
-        p{
-            margin-left: 60px;
-        }
-    }
-    .statitem2{
-        width: 300px;
-        margin-top: 20px;
-        margin-left: 60px;
-        span{
-            margin-left: 20px;
-        }
-        p{
-            margin-left: 60px;
-        }
-    }
-    .statitem3{
-        width: 300px;
-        margin-top: 20px;
-        margin-left: 60px;
-        span{
-            margin-left: 20px;
+            margin-left: 30px;
         }
         p{
             margin-left: 70px;
         }
     }
-    .statitem4{
-        width: 300px;
+    .statitem2{
+        width: 380px;
+        margin-left: 70px;
         margin-top: 20px;
-        margin-left: 60px;
+        span{
+            margin-left: 30px;
+        }
+        p{
+            margin-left: 65px;
+        }
+    }
+    .statitem3{
+        width: 380px;
+        margin-left: 70px;
+        margin-top: 20px;
+        span{
+            margin-left: 30px;
+        }
+        p{
+            margin-left: 80px;
+        }
+    }
+    .statitem4{
+        width: 380px;
+        margin-left: 70px;
+        margin-top: 20px;
         span{
             margin-left: 20px;
         }
@@ -146,39 +153,49 @@ $breakpoint:576px;
     }
     // feature section title
     .featuresectitle{
-        margin-top: 30px;
-        margin-left: 130px;
+        margin-top: 40px;
+        margin-left: 190px;
     }
     .featuresectitlep{
-        margin-left: 60px;
+        margin-left: 100px;
         width: 500px;
     }
     // featuress
     .featureimg{
         img{
-            height: 260px;
-            width: 380px;
+            height: 300px;
+            width: 450px;
         }
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .threebox{
         .featureitem1{
+            width: 400px;
             margin-left: 80px;
+            p{
+                font-size: 20px;
+            }
         }
     }
     .threebox2{
         margin-top: 40px;
         .featureitem1{
+            width: 400px;
             margin-left: -240px;
+            p{
+                font-size: 20px;
+            }
         }
     }
     // altitem
     .altitem1{
-        margin-left: 60px;
+        width: 400px;
+        margin-left: 120px;
     }
     .altitem2{
+        width: 400px;
         margin-top: 60px;
-        margin-left: 60px;
+        margin-left: 120px;
     }
     .altfetureimg{
         img{
@@ -190,255 +207,255 @@ $breakpoint:576px;
     }
     // service section title
     .servicesectitle{
-        margin-left: 130px;
+        margin-left: 190px;
     }
     .servicesectitlep{
-        margin-left: 90px;
+        margin-left: 150px;
         width: 500px;
     }
     // service boxes
     .box1{
-        margin-left: 30px;
+        margin-left: 90px;
         span{
             i{
-                margin-left: 15px;
+                margin-left: 20px;
             }
         }
     }
     .box2{
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 40px;
         span{
             i{
-                margin-left: 15px;
+                margin-left: 20px;
             }
         }
     }
     .box3{
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 40px;
         span{
             i{
-                margin-left: 15px;
+                margin-left: 20px;
             }
         }
     }
     .box4{
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 40px;
         span{
             i{
-                margin-left: 15px;
+                margin-left: 20px;
             }
         }
     }
     .box5{
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 40px;
         span{
             i{
-                margin-left: 15px;
+                margin-left: 20px;
             }
         }
     }
     .box6{
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 40px;
         span{
             i{
-                margin-left: 15px;
+                margin-left: 20px;
             }
         }
     }
     // pricing section title
     .pricingsectitle{
-        margin-left: 130px;
+        margin-left: 190px;
     }
     .sectitlep{
-        margin-left: 0px;
+        margin-left: 70px;
         width: 400px;
     }
     // Price of services
     .pricingitem1{
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .pricingitem2{
         margin-top:50px;
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .pricingitem3{
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .pricingitem4{
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: 140px;
     }
     // FAQ TITLE
     .faqsectitle{
-        margin-left: 130px;
+        margin-left: 190px;
     }
     // Porfolio section title
     .Porfoliosectitle{
-        margin-left: 125px;
+        margin-left: 190px;
     }
     .portsectitlep{
-        margin-left: 70px;
+        margin-left: 140px;
         width: 400px; 
     }
     // Porfolio
     .item1{
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item2{
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item3{
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item4{
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item5{
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item6{
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item7{
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item8{
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .item9{
-        margin-left: 30px;
+        margin-left: 90px;
     }
     // Team Section
     .teamsectitle{
-        margin-left: 125px;
+        margin-left: 190px;
     }
     .teamsectitlep{
-        margin-left: 70px;
+        margin-left: 120px;
         width: 400px; 
     }
     // Team member
     .member1{
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .member1detail{
         h4{
             font-size: 20px;
-            margin-left: 120px;
+            margin-left: 180px;
         }
         span{
             font-size: 14px;
-            margin-left: 110px;
+            margin-left: 170px;
         }
         p{
             width: 230px;
             font-size: 14px;
-            margin-left: 60px;
+            margin-left: 125px;
         }
     }
     .member2{
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .member2detail{
         h4{
             font-size: 20px;
-            margin-left: 120px;
+            margin-left: 180px;
         }
         span{
             font-size: 14px;
-            margin-left: 110px;
+            margin-left: 170px;
         }
         p{
             width: 230px;
             font-size: 14px;
-            margin-left: 60px;
+            margin-left: 125px;
         }
     }
     .member3{
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .member3detail{
         h4{
             font-size: 20px;
-            margin-left: 120px;
+            margin-left: 180px;
         }
         span{
             font-size: 14px;
-            margin-left: 110px;
+            margin-left: 170px;
         }
         p{
             width: 230px;
             font-size: 14px;
-            margin-left: 60px;
+            margin-left: 125px;
         }
     }
     .member4{
-        margin-left: 80px;
+        margin-left: 140px;
     }
     .member4detail{
         h4{
             font-size: 20px;
-            margin-left: 120px;
+            margin-left: 180px;
         }
         span{
             font-size: 14px;
-            margin-left: 110px;
+            margin-left: 170px;
         }
         p{
             width: 230px;
             font-size: 14px;
-            margin-left: 60px;
+            margin-left: 125px;
         }
     }
     // post section title
     .postsectitle{
-        margin-left: 110px;
+        margin-left: 190px;
     }
     .postsectitlep{
         width: 500px;
-        margin-left: 20px;
+        margin-left: 90px;
     }
     // post Item
     .postitem1{
-        margin-top: 160px;
-        margin-left: 25px;
+        margin-top: 120px;
+        margin-left: 90px;
     }
     // contect section title
     .contectsectitle{
-        margin-left: 120px;
+        margin-left: 190px;
     }
     .contectsectitlep{
-        margin-left: 120px;
+        margin-left: 190px;
     }
     // Contect
     .contectbox1{
-        margin-left: 80px;
+        margin-left: 150px;
     }
     .contectbox2{
-        margin-left: 80px;
+        margin-left: 150px;
     }
     .contectform{
         margin-top: 20px;
-        margin-left: 10px;
-        width: 380px;
+        margin-left: 40px;
+        width: 440px;
         .name{
-            width: 340px;
+            width: 400px;
         }
         .email{
             margin-top: 20px;
             margin-left: 0px;
-            width: 340px;
+            width: 400px;
             
         }
         .Massage{
@@ -446,7 +463,7 @@ $breakpoint:576px;
         }
         .sendbutton{
             margin-top: 10px;
-            margin-left: 70px;
+            margin-left: 100px;
             button{
                 width: 200px;
             }
@@ -454,19 +471,19 @@ $breakpoint:576px;
     }
     // footer news
     .footernews{
-        width: 370px;
+        width: 440px;
         height: 200px;
-        margin-left: 20px;
+        margin-left: 40px;
         h4{
-            margin-left: 70px;
+            margin-left: 120px;
             width: 300px;
         }
         .input{
             margin-left: 20px;
-            width: 230px;
+            width: 300px;
         }
         .inputbutton{
-           margin-left: 230px;
+           margin-left: 300px;
         }
     }
     // footer

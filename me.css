@@ -1246,6 +1246,13 @@ ul li a {
 }
 
 @media (max-width: 576px) and (min-width: 0px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .backgroudimage {
     margin-left: -400px;
     height: 600px;
@@ -1655,6 +1662,454 @@ ul li a {
   }
   .footernews .inputbutton {
     margin-left: 230px;
+  }
+  .footer {
+    margin-top: -40px;
+  }
+  .footer .HASTlinks {
+    margin-left: 0px;
+  }
+  .footer .footer-col ul {
+    margin-left: -35px;
+  }
+  .footer .details {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 577px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .backgroudimage {
+    margin-left: -300px;
+    height: 500px;
+    width: 870px;
+  }
+  .backgroudimage h1 {
+    margin-left: 390px;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .backgroudimage p {
+    width: 400px;
+    font-size: 20px;
+    margin-left: -380px;
+    margin-top: 190px;
+    text-align: center;
+  }
+  .backgroudimage .btns button {
+    width: 400px;
+    margin-left: 190px;
+    margin-top: -360px;
+  }
+  .backgroudimage .btns a {
+    margin-left: -280px;
+  }
+  .backgroudimage .btns a span {
+    margin-top: -97px;
+  }
+  .backgroudimage .btns a i {
+    margin-top: -90px;
+  }
+  .heroimg {
+    margin-left: -60px;
+    margin-top: -200px;
+  }
+  .heroimg img {
+    height: 400px;
+    width: 550px;
+  }
+  .content {
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 5px;
+  }
+  .content h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .content p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .content .contentbtn {
+    margin-left: 200px;
+  }
+  .contentimg {
+    margin-left: 5px;
+  }
+  .contentimg img {
+    height: 400px;
+    width: 500px;
+  }
+  .valuesectitle {
+    margin-top: 30px;
+    margin-left: 190px;
+  }
+  .valuesectitlep {
+    margin-left: 130px;
+    width: 500px;
+  }
+  .cards .card1 {
+    margin-left: 70px;
+  }
+  .cards .card2 {
+    margin-top: 480px;
+    margin-left: -410px;
+  }
+  .cards .card3 {
+    margin-top: 960px;
+    margin-left: -440px;
+  }
+  .statitem1 {
+    width: 380px;
+    margin-left: 70px;
+  }
+  .statitem1 span {
+    margin-left: 30px;
+  }
+  .statitem1 p {
+    margin-left: 70px;
+  }
+  .statitem2 {
+    width: 380px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .statitem2 span {
+    margin-left: 30px;
+  }
+  .statitem2 p {
+    margin-left: 65px;
+  }
+  .statitem3 {
+    width: 380px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .statitem3 span {
+    margin-left: 30px;
+  }
+  .statitem3 p {
+    margin-left: 80px;
+  }
+  .statitem4 {
+    width: 380px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .statitem4 span {
+    margin-left: 20px;
+  }
+  .statitem4 p {
+    margin-left: 80px;
+  }
+  .featuresectitle {
+    margin-top: 40px;
+    margin-left: 190px;
+  }
+  .featuresectitlep {
+    margin-left: 100px;
+    width: 500px;
+  }
+  .featureimg {
+    margin-left: 30px;
+  }
+  .featureimg img {
+    height: 300px;
+    width: 450px;
+  }
+  .threebox .featureitem1 {
+    width: 400px;
+    margin-left: 80px;
+  }
+  .threebox .featureitem1 p {
+    font-size: 20px;
+  }
+  .threebox2 {
+    margin-top: 40px;
+  }
+  .threebox2 .featureitem1 {
+    width: 400px;
+    margin-left: -240px;
+  }
+  .threebox2 .featureitem1 p {
+    font-size: 20px;
+  }
+  .altitem1 {
+    width: 400px;
+    margin-left: 120px;
+  }
+  .altitem2 {
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 120px;
+  }
+  .altfetureimg {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .altfetureimg img {
+    height: 380px;
+    width: 340px;
+  }
+  .servicesectitle {
+    margin-left: 190px;
+  }
+  .servicesectitlep {
+    margin-left: 150px;
+    width: 500px;
+  }
+  .box1 {
+    margin-left: 90px;
+  }
+  .box1 span i {
+    margin-left: 20px;
+  }
+  .box2 {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .box2 span i {
+    margin-left: 20px;
+  }
+  .box3 {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .box3 span i {
+    margin-left: 20px;
+  }
+  .box4 {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .box4 span i {
+    margin-left: 20px;
+  }
+  .box5 {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .box5 span i {
+    margin-left: 20px;
+  }
+  .box6 {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .box6 span i {
+    margin-left: 20px;
+  }
+  .pricingsectitle {
+    margin-left: 190px;
+  }
+  .sectitlep {
+    margin-left: 70px;
+    width: 400px;
+  }
+  .pricingitem1 {
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .pricingitem2 {
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .pricingitem3 {
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .pricingitem4 {
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .faqsectitle {
+    margin-left: 190px;
+  }
+  .Porfoliosectitle {
+    margin-left: 190px;
+  }
+  .portsectitlep {
+    margin-left: 140px;
+    width: 400px;
+  }
+  .item1 {
+    margin-left: 90px;
+  }
+  .item2 {
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  .item3 {
+    margin-left: 90px;
+  }
+  .item4 {
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  .item5 {
+    margin-left: 90px;
+  }
+  .item6 {
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  .item7 {
+    margin-left: 90px;
+  }
+  .item8 {
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  .item9 {
+    margin-left: 90px;
+  }
+  .teamsectitle {
+    margin-left: 190px;
+  }
+  .teamsectitlep {
+    margin-left: 120px;
+    width: 400px;
+  }
+  .member1 {
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .member1detail h4 {
+    font-size: 20px;
+    margin-left: 180px;
+  }
+  .member1detail span {
+    font-size: 14px;
+    margin-left: 170px;
+  }
+  .member1detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 125px;
+  }
+  .member2 {
+    margin-left: 140px;
+  }
+  .member2detail h4 {
+    font-size: 20px;
+    margin-left: 180px;
+  }
+  .member2detail span {
+    font-size: 14px;
+    margin-left: 170px;
+  }
+  .member2detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 125px;
+  }
+  .member3 {
+    margin-left: 140px;
+  }
+  .member3detail h4 {
+    font-size: 20px;
+    margin-left: 180px;
+  }
+  .member3detail span {
+    font-size: 14px;
+    margin-left: 170px;
+  }
+  .member3detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 125px;
+  }
+  .member4 {
+    margin-left: 140px;
+  }
+  .member4detail h4 {
+    font-size: 20px;
+    margin-left: 180px;
+  }
+  .member4detail span {
+    font-size: 14px;
+    margin-left: 170px;
+  }
+  .member4detail p {
+    width: 230px;
+    font-size: 14px;
+    margin-left: 125px;
+  }
+  .postsectitle {
+    margin-left: 190px;
+  }
+  .postsectitlep {
+    width: 500px;
+    margin-left: 90px;
+  }
+  .postitem1 {
+    margin-top: 120px;
+    margin-left: 90px;
+  }
+  .contectsectitle {
+    margin-left: 190px;
+  }
+  .contectsectitlep {
+    margin-left: 190px;
+  }
+  .contectbox1 {
+    margin-left: 150px;
+  }
+  .contectbox2 {
+    margin-left: 150px;
+  }
+  .contectform {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 440px;
+  }
+  .contectform .name {
+    width: 400px;
+  }
+  .contectform .email {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 400px;
+  }
+  .contectform .Massage {
+    margin-top: -20px;
+  }
+  .contectform .sendbutton {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  .contectform .sendbutton button {
+    width: 200px;
+  }
+  .footernews {
+    width: 440px;
+    height: 200px;
+    margin-left: 40px;
+  }
+  .footernews h4 {
+    margin-left: 120px;
+    width: 300px;
+  }
+  .footernews .input {
+    margin-left: 20px;
+    width: 300px;
+  }
+  .footernews .inputbutton {
+    margin-left: 300px;
   }
   .footer {
     margin-top: -40px;
